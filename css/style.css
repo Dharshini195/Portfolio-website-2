@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Overlock SC', serif;
+    font-size: 150%;
+    
+}
+
+h1{
+    margin-top : 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66Bfbf;
+}
+h2{
+    color: #66Bfbf;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.top-container{
+    background-color: #DCF2F1;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    padding: 100px auto 100px auto;
+    margin: 100px auto 100px auto;
+}
+
+.bottom-container{
+    padding: 50px 0 60px 0;
+    margin: 100px auto 100px auto;
+    background-color: #66BFBF;
+    
+}
+
+a{
+    color: #11999E;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+ 
+a:hover{
+    color: #EAF6F6;
+}
+
+.copy{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+     font-size: 3.625rem; 
+    /*--> dyanamic sizing using % (16px = 100% = 1em) */
+    margin-top: 0;
+}
+
+.skills{
+    padding: 100px auto;
+    margin: 100px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.img-class{
+    width: 12%;
+    border-radius: 100%;
+}
+.code-img{
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.comp-img{
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+/* .comp-des{
+    clear: left;
+}
+
+.code-des{
+    clear: right;
+} */
+
+hr{
+    width: 5%;
+    border-style: dotted;
+    border-top: 0;
+    border-width: 10px;
+    border-color: #EAF6F6;
+    margin: 100px auto;
+}
+
+.intro{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+p{
+    line-height: 2;
+}
+
+.BUTTON_JTA {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-family: Georgia;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 21px;
+    background-color: #05C0C6;
+    text-shadow: 1px 1px 20px #7C9596;
+    border: solid #0059A0 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
